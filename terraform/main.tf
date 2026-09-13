@@ -6,7 +6,7 @@ resource "google_compute_network" "vpc" {
 }
 
 resource "google_compute_subnetwork" "sub1" {
-  name = "subnetwork1"
+  name = "jerney-vpc"
 
   ip_cidr_range = var.vpc-cidr
   #region        = "us-central1"
