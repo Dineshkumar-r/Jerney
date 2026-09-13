@@ -5,8 +5,3 @@ provider "google" {
     project = var.project
     region  = var.region
 }
-
-lables  = {
-    Environment = var.environment
-    ManagedBy   = terraform
-}
