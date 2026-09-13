@@ -15,7 +15,7 @@ variable "environment" {
     type        = string
     default     = "production"
 }
-variable "vpc-cidr" {
+variable "vpc_cidr" {
     description = "gcp vpc cidr creation"
     type        = string
     default     = "10.0.0.0/16"
